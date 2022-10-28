@@ -1,27 +1,7 @@
-# foundry-template • [![CI](https://github.com/transmissions11/foundry-template/actions/workflows/tests.yml/badge.svg)](https://github.com/transmissions11/foundry-template/actions/workflows/tests.yml)
+### Foundry
 
-Streamlined template for getting started with Foundry and Solmate.
+To run the scripts provided you will need to install [Foundry](https://github.com/foundry-rs/foundry). See the [installation guide](https://github.com/foundry-rs/foundry#installation) for details.
 
-## Contributing
+### Mirror721
 
-You will need a copy of [Foundry](https://github.com/foundry-rs/foundry) installed before proceeding. See the [installation guide](https://github.com/foundry-rs/foundry#installation) for details.
-
-### Setup
-
-```sh
-git clone https://github.com/transmissions11/foundry-template.git
-cd foundry-template
-forge install
-```
-
-### Run Tests
-
-```sh
-forge test
-```
-
-### Update Gas Snapshots
-
-```sh
-forge snapshot
-```
+Mirror721 is a token standard derived from ERC721 that uses [Wormhole](https://github.com/wormhole-foundation/wormhole) as a messaging layer to reflect state across EVM chains. Updates to state such as mints and transfer brodcast messages to the Wormhole network that can be replayed across chains. No one chain has authority over others and updates can be initiated from any chain in the loop. 
