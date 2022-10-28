@@ -1,10 +1,10 @@
-### Mirror721
+## Mirror721
 
 Mirror721 is a token standard derived from ERC721 that uses [Wormhole](https://github.com/wormhole-foundation/wormhole) as a messaging layer to reflect state across EVM chains. Updates to state such as mints and transfer brodcast messages to the Wormhole network that can be replayed across chains. No one chain has authority over others and updates can be initiated from any chain in the loop. For more details please see the [Presentation](https://github.com/0x0aa0/Mirror721/blob/main/MIRROR.pdf)
 
 ### Setup
 
-To run the scripts provided you will need to install [Foundry](https://github.com/foundry-rs/foundry) and set up am env file with a private key and derived public key
+To run the scripts provided you will need to install [Foundry](https://github.com/foundry-rs/foundry) and set up am .env file with a private key and derived public key
 
 ### Deployment
 
